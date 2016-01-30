@@ -3,9 +3,12 @@ package com.lasarobotics.library.controller;
 /**
  * Contains button state variables
  */
-public class ButtonState {
-    public final static int NOT_PRESSED = 0;    //NOT pressed (called after RELEASED)
-    public final static int PRESSED = 1;        //JUST pressed
-    public final static int RELEASED = 2;       //JUST released
-    public final static int HELD = 3;           //Held down (called after PRESSED)
+public enum ButtonState {
+    NOT_PRESSED(0), PRESSED(1), RELEASED(2), HELD(3);           //Held down (called after PRESSED)
+    
+    public final int value;
+    
+    public ButtonState(int v) {
+        this.value = v;
+    }
 }
