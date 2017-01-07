@@ -21,7 +21,7 @@ From the Android Studio menu, select `Open an existing Android Studio Project` a
 
 ##Documentation  [![Documentation Status](https://img.shields.io/badge/documentation-online-blue.svg)](http://ftclib.lasarobotics.org)
 
-**Documentation for the entire stable API is available at ftclib.lasarobotics.org.** 
+**Documentation for the entire stable API is available at ftcvision.lasarobotics.org.** 
 
 ##Support
 We can provide support to teams who wish to use our library. Please let us know (via the issues tab) if there's anything we can help you with or anything you wish could be improved. We welcome feedback!
